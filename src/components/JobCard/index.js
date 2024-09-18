@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import {BsFillBriefFill, BsStarFill} from 'react-icons/bs'
+import {BsBriefcaseFill, BsStarFill} from 'react-icons/bs'
 import {MdLocationOn} from 'react-icons/md'
 import './index.css'
 
@@ -40,7 +40,7 @@ const JobCard = props => {
                 <p className="location-heading">{location}</p>
               </div>
               <div className="employee-type-container">
-                <BsFillBriefFill className="brief-case-icon" />
+                <BsBriefcaseFill className="brief-case-icon" />
                 <p className="employee-type-heading">{employmentType}</p>
               </div>
             </div>

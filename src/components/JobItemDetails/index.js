@@ -221,10 +221,10 @@ class JobItemDetails extends Component {
     switch (apiStatus) {
       case apiStatusConstants.success:
         return this.renderJobDetailsView()
-      case apiStatusConstants.failure:
-        return this.renderFailureview()
       case apiStatusConstants.inProgress:
         return this.renderLoadingView()
+      case apiStatusConstants.failure:
+        return this.renderFailureview()
       default:
         return null
     }

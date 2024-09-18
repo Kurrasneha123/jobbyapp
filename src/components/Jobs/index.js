@@ -125,7 +125,7 @@ class Jobs extends Component {
         />
         <h1 className="no-jobs-heading">No Jobs Found</h1>
         <p className="no-jobs-description">
-          we could not find any jobs.Try other filters.
+          we could not find any jobs. Try other filters.
         </p>
       </div>
     )
